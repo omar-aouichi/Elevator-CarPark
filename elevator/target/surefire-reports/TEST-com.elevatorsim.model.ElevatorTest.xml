@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.elevatorsim.model.ElevatorTest" time="0.126" tests="27" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/omar/elevator/target/test-classes:/home/omar/elevator/target/classes:/home/omar/.m2/repository/org/openjfx/javafx-controls/21.0.2/javafx-controls-21.0.2.jar:/home/omar/.m2/repository/org/openjfx/javafx-controls/21.0.2/javafx-controls-21.0.2-linux.jar:/home/omar/.m2/repository/org/openjfx/javafx-graphics/21.0.2/javafx-graphics-21.0.2.jar:/home/omar/.m2/repository/org/openjfx/javafx-graphics/21.0.2/javafx-graphics-21.0.2-linux.jar:/home/omar/.m2/repository/org/openjfx/javafx-base/21.0.2/javafx-base-21.0.2.jar:/home/omar/.m2/repository/org/openjfx/javafx-base/21.0.2/javafx-base-21.0.2-linux.jar:/home/omar/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/home/omar/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/home/omar/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/omar/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/home/omar/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/omar/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/home/omar/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/home/omar/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:"/>
+    <property name="java.vm.vendor" value="Red Hat, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://www.redhat.com/"/>
+    <property name="user.timezone" value="Africa/Casablanca"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-25-openjdk/lib"/>
+    <property name="sun.java.command" value="/home/omar/elevator/target/surefire/surefirebooter-20260512185509267_3.jar /home/omar/elevator/target/surefire 2026-05-12T18-55-09_104-jvmRun1 surefire-20260512185509267_1tmp surefire_0-20260512185509267_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/omar/elevator/target/test-classes:/home/omar/elevator/target/classes:/home/omar/.m2/repository/org/openjfx/javafx-controls/21.0.2/javafx-controls-21.0.2.jar:/home/omar/.m2/repository/org/openjfx/javafx-controls/21.0.2/javafx-controls-21.0.2-linux.jar:/home/omar/.m2/repository/org/openjfx/javafx-graphics/21.0.2/javafx-graphics-21.0.2.jar:/home/omar/.m2/repository/org/openjfx/javafx-graphics/21.0.2/javafx-graphics-21.0.2-linux.jar:/home/omar/.m2/repository/org/openjfx/javafx-base/21.0.2/javafx-base-21.0.2.jar:/home/omar/.m2/repository/org/openjfx/javafx-base/21.0.2/javafx-base-21.0.2-linux.jar:/home/omar/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/home/omar/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/home/omar/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/omar/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/home/omar/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/omar/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/home/omar/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/home/omar/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/omar"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="/usr/lib/jvm/java-25-openjdk"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/omar/elevator"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/home/omar/elevator/target/surefire/surefirebooter-20260512185509267_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.3+9"/>
+    <property name="user.name" value="omar"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="7.0.4-200.fc44.x86_64"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="(Red_Hat-25.0.3.0.9-1)"/>
+    <property name="localRepository" value="/home/omar/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugzilla.redhat.com/enter_bug.cgi?product=Fedora&amp;component=java-25-openjdk&amp;version=42"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="25.0.3"/>
+    <property name="user.dir" value="/home/omar/elevator"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Red Hat, Inc."/>
+    <property name="java.vm.version" value="25.0.3+9"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="arrivedAtFloor_sameFloorAsCurrent_afterAddDestination" classname="com.elevatorsim.model.ElevatorTest" time="0.006"/>
+  <testcase name="hasDestinations_initiallyFalse" classname="com.elevatorsim.model.ElevatorTest" time="0.002"/>
+  <testcase name="moveOneFloor_upDirection_incrementsFloor" classname="com.elevatorsim.model.ElevatorTest" time="0.002"/>
+  <testcase name="arrivedAtFloor_noStop_returnsFalse" classname="com.elevatorsim.model.ElevatorTest" time="0.002"/>
+  <testcase name="constructor_initializesCorrectly" classname="com.elevatorsim.model.ElevatorTest" time="0.004"/>
+  <testcase name="hasDestinations_afterAdd_returnsTrue" classname="com.elevatorsim.model.ElevatorTest" time="0.003"/>
+  <testcase name="addDestination_multipleFloors_addsToQueue" classname="com.elevatorsim.model.ElevatorTest" time="0.003"/>
+  <testcase name="hallCallStop_incrementsPassengers" classname="com.elevatorsim.model.ElevatorTest" time="0.002"/>
+  <testcase name="moveOneFloor_downDirection_decrementsFloor" classname="com.elevatorsim.model.ElevatorTest" time="0.004"/>
+  <testcase name="addDestination_outOfRange_ignored" classname="com.elevatorsim.model.ElevatorTest" time="0.002"/>
+  <testcase name="arrivedAtFloor_recordsWaitTime" classname="com.elevatorsim.model.ElevatorTest" time="0.002"/>
+  <testcase name="addDestination_increasesPendingCount" classname="com.elevatorsim.model.ElevatorTest" time="0.002"/>
+  <testcase name="getPendingCount_incrementsCorrectly" classname="com.elevatorsim.model.ElevatorTest" time="0.002"/>
+  <testcase name="getNextDestination_returnsFirstQueued" classname="com.elevatorsim.model.ElevatorTest" time="0.002"/>
+  <testcase name="cabCallStop_decrementsPassengers" classname="com.elevatorsim.model.ElevatorTest" time="0.002"/>
+  <testcase name="arrivedAtFloor_withStop_returnsTrue" classname="com.elevatorsim.model.ElevatorTest" time="0.002"/>
+  <testcase name="extendsBuildingComponent" classname="com.elevatorsim.model.ElevatorTest" time="0.009"/>
+  <testcase name="getNextDestination_empty_returnsMinusOne" classname="com.elevatorsim.model.ElevatorTest" time="0.003"/>
+  <testcase name="getDisplayName_forSecondElevator" classname="com.elevatorsim.model.ElevatorTest" time="0.002"/>
+  <testcase name="moveOneFloor_atMaxFloor_doesNotGoHigher" classname="com.elevatorsim.model.ElevatorTest" time="0.003"/>
+  <testcase name="hasDestinations_afterArrival_returnsFalse" classname="com.elevatorsim.model.ElevatorTest" time="0.002"/>
+  <testcase name="setDirection_updatesDirection" classname="com.elevatorsim.model.ElevatorTest" time="0.002"/>
+  <testcase name="getPendingDestinations_returnsInsertionOrder" classname="com.elevatorsim.model.ElevatorTest" time="0.003"/>
+  <testcase name="setState_updatesState" classname="com.elevatorsim.model.ElevatorTest" time="0.002"/>
+  <testcase name="shutdown_stopsElevator" classname="com.elevatorsim.model.ElevatorTest" time="0.002"/>
+  <testcase name="moveOneFloor_atMinFloor_doesNotGoLower" classname="com.elevatorsim.model.ElevatorTest" time="0.002"/>
+  <testcase name="arrivedAtFloor_intermediateStop_detected" classname="com.elevatorsim.model.ElevatorTest" time="0.002"/>
+</testsuite>
