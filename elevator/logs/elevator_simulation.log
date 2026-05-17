@@ -1457,3 +1457,92 @@
 [2026-05-12 19:00:27.673] [Ascenseur 1    ] Thread arrete
 [2026-05-12 19:00:27.674] [Ascenseur 2    ] Thread arrete
 [2026-05-12 19:00:27.675] [SYSTÈME        ] === Simulation terminée ===
+[2026-05-14 11:49:29.317] [SYSTÈME        ] === Simulation d'Ascenseurs démarrée ===
+[2026-05-14 11:49:29.318] [SYSTÈME        ] Fichier de logs: /home/omar/Elevator-CarPark/elevator/logs/elevator_simulation.log
+[2026-05-14 11:49:29.699] [CONTROLEUR     ] Simulation demarree - 2 ascenseurs actifs dans l'immeuble 'Tour Horizon'
+[2026-05-14 11:49:29.700] [Ascenseur 2    ] Thread demarre
+[2026-05-14 11:49:29.700] [Ascenseur 1    ] Thread demarre
+[2026-05-14 11:49:29.704] [Ascenseur 2    ] En attente de requetes...
+[2026-05-14 11:49:29.704] [Ascenseur 1    ] En attente de requetes...
+[2026-05-14 11:49:42.145] [ALGORITHME     ]   Ascenseur 1: distance=6, occupants=0, score=6
+[2026-05-14 11:49:42.146] [ALGORITHME     ]   Ascenseur 2: distance=6, occupants=0, score=6
+[2026-05-14 11:49:42.146] [ALGORITHME     ]   -> Choix: Ascenseur 1 (score: 6)
+[2026-05-14 11:49:42.147] [APPEL          ] Étage 6, Direction: Appel → Assigné à Ascenseur 1
+[2026-05-14 11:49:43.148] [Ascenseur 1    ] Déplacement: Étage 0 → Étage 1 (▲ Montée)
+[2026-05-14 11:49:44.148] [Ascenseur 1    ] Déplacement: Étage 1 → Étage 2 (▲ Montée)
+[2026-05-14 11:49:45.149] [Ascenseur 1    ] Déplacement: Étage 2 → Étage 3 (▲ Montée)
+[2026-05-14 11:49:46.150] [Ascenseur 1    ] Déplacement: Étage 3 → Étage 4 (▲ Montée)
+[2026-05-14 11:49:47.151] [Ascenseur 1    ] Déplacement: Étage 4 → Étage 5 (▲ Montée)
+[2026-05-14 11:49:48.151] [Ascenseur 1    ] Déplacement: Étage 5 → Étage 6 (▲ Montée)
+[2026-05-14 11:49:48.152] [Ascenseur 1    ] ★ Arrêt à l'étage 6 — Portes ouvertes
+[2026-05-14 11:49:48.152] [Ascenseur 1    ] Temps d'attente à l'étage 6: 6005 ms
+[2026-05-14 11:49:54.829] [Ascenseur 1    ] Passager sélectionne l'étage 5
+[2026-05-14 11:49:55.830] [Ascenseur 1    ] Déplacement: Étage 6 → Étage 5 (▼ Descente)
+[2026-05-14 11:49:55.830] [Ascenseur 1    ] ★ Arrêt à l'étage 5 — Portes ouvertes
+[2026-05-14 11:49:55.831] [Ascenseur 1    ] Temps d'attente à l'étage 5: 1001 ms
+[2026-05-14 11:49:57.831] [Ascenseur 1    ] En attente de requetes...
+[2026-05-14 11:50:03.081] [ALGORITHME     ]   Ascenseur 1: distance=3, occupants=0, score=3
+[2026-05-14 11:50:03.082] [ALGORITHME     ]   Ascenseur 2: distance=8, occupants=0, score=8
+[2026-05-14 11:50:03.082] [ALGORITHME     ]   -> Choix: Ascenseur 1 (score: 3)
+[2026-05-14 11:50:03.082] [APPEL          ] Étage 8, Direction: Appel → Assigné à Ascenseur 1
+[2026-05-14 11:50:04.082] [Ascenseur 1    ] Déplacement: Étage 5 → Étage 6 (▲ Montée)
+[2026-05-14 11:50:05.083] [Ascenseur 1    ] Déplacement: Étage 6 → Étage 7 (▲ Montée)
+[2026-05-14 11:50:06.084] [Ascenseur 1    ] Déplacement: Étage 7 → Étage 8 (▲ Montée)
+[2026-05-14 11:50:06.084] [Ascenseur 1    ] ★ Arrêt à l'étage 8 — Portes ouvertes
+[2026-05-14 11:50:06.084] [Ascenseur 1    ] Temps d'attente à l'étage 8: 3002 ms
+[2026-05-14 11:50:14.804] [Ascenseur 1    ] Passager sélectionne l'étage 1
+[2026-05-14 11:50:15.804] [Ascenseur 1    ] Déplacement: Étage 8 → Étage 7 (▼ Descente)
+[2026-05-14 11:50:16.805] [Ascenseur 1    ] Déplacement: Étage 7 → Étage 6 (▼ Descente)
+[2026-05-14 11:50:17.500] [ALGORITHME     ]   Ascenseur 1: distance=3, occupants=1, score=5
+[2026-05-14 11:50:17.500] [ALGORITHME     ]   Ascenseur 2: distance=9, occupants=0, score=9
+[2026-05-14 11:50:17.500] [ALGORITHME     ]   -> Choix: Ascenseur 1 (score: 5)
+[2026-05-14 11:50:17.500] [APPEL          ] Étage 9, Direction: Appel → Assigné à Ascenseur 1
+[2026-05-14 11:50:17.806] [Ascenseur 1    ] Déplacement: Étage 6 → Étage 5 (▼ Descente)
+[2026-05-14 11:50:18.806] [Ascenseur 1    ] Déplacement: Étage 5 → Étage 4 (▼ Descente)
+[2026-05-14 11:50:19.807] [Ascenseur 1    ] Déplacement: Étage 4 → Étage 3 (▼ Descente)
+[2026-05-14 11:50:20.808] [Ascenseur 1    ] Déplacement: Étage 3 → Étage 2 (▼ Descente)
+[2026-05-14 11:50:21.808] [Ascenseur 1    ] Déplacement: Étage 2 → Étage 1 (▼ Descente)
+[2026-05-14 11:50:21.809] [Ascenseur 1    ] ★ Arrêt à l'étage 1 — Portes ouvertes
+[2026-05-14 11:50:21.809] [Ascenseur 1    ] Temps d'attente à l'étage 1: 7004 ms
+[2026-05-14 11:50:24.809] [Ascenseur 1    ] Déplacement: Étage 1 → Étage 2 (▲ Montée)
+[2026-05-14 11:50:25.810] [Ascenseur 1    ] Déplacement: Étage 2 → Étage 3 (▲ Montée)
+[2026-05-14 11:50:26.811] [Ascenseur 1    ] Déplacement: Étage 3 → Étage 4 (▲ Montée)
+[2026-05-14 11:50:27.811] [Ascenseur 1    ] Déplacement: Étage 4 → Étage 5 (▲ Montée)
+[2026-05-14 11:50:28.812] [Ascenseur 1    ] Déplacement: Étage 5 → Étage 6 (▲ Montée)
+[2026-05-14 11:50:29.812] [Ascenseur 1    ] Déplacement: Étage 6 → Étage 7 (▲ Montée)
+[2026-05-14 11:50:30.510] [ALGORITHME     ]   Ascenseur 1: distance=6, occupants=0, score=6
+[2026-05-14 11:50:30.510] [ALGORITHME     ]   Ascenseur 2: distance=1, occupants=0, score=1
+[2026-05-14 11:50:30.510] [ALGORITHME     ]   -> Choix: Ascenseur 2 (score: 1)
+[2026-05-14 11:50:30.510] [APPEL          ] Étage 1, Direction: Appel → Assigné à Ascenseur 2
+[2026-05-14 11:50:30.813] [Ascenseur 1    ] Déplacement: Étage 7 → Étage 8 (▲ Montée)
+[2026-05-14 11:50:31.511] [Ascenseur 2    ] Déplacement: Étage 0 → Étage 1 (▲ Montée)
+[2026-05-14 11:50:31.511] [Ascenseur 2    ] ★ Arrêt à l'étage 1 — Portes ouvertes
+[2026-05-14 11:50:31.511] [Ascenseur 2    ] Temps d'attente à l'étage 1: 1000 ms
+[2026-05-14 11:50:31.814] [Ascenseur 1    ] Déplacement: Étage 8 → Étage 9 (▲ Montée)
+[2026-05-14 11:50:31.814] [Ascenseur 1    ] ★ Arrêt à l'étage 9 — Portes ouvertes
+[2026-05-14 11:50:31.814] [Ascenseur 1    ] Temps d'attente à l'étage 9: 14313 ms
+[2026-05-14 11:50:37.416] [Ascenseur 1    ] Passager sélectionne l'étage 4
+[2026-05-14 11:50:38.417] [Ascenseur 1    ] Déplacement: Étage 9 → Étage 8 (▼ Descente)
+[2026-05-14 11:50:39.418] [Ascenseur 1    ] Déplacement: Étage 8 → Étage 7 (▼ Descente)
+[2026-05-14 11:50:40.418] [Ascenseur 1    ] Déplacement: Étage 7 → Étage 6 (▼ Descente)
+[2026-05-14 11:50:40.782] [Ascenseur 2    ] Passager sélectionne l'étage 9
+[2026-05-14 11:50:41.419] [Ascenseur 1    ] Déplacement: Étage 6 → Étage 5 (▼ Descente)
+[2026-05-14 11:50:41.782] [Ascenseur 2    ] Déplacement: Étage 1 → Étage 2 (▲ Montée)
+[2026-05-14 11:50:42.419] [Ascenseur 1    ] Déplacement: Étage 5 → Étage 4 (▼ Descente)
+[2026-05-14 11:50:42.419] [Ascenseur 1    ] ★ Arrêt à l'étage 4 — Portes ouvertes
+[2026-05-14 11:50:42.420] [Ascenseur 1    ] Temps d'attente à l'étage 4: 5003 ms
+[2026-05-14 11:50:42.783] [Ascenseur 2    ] Déplacement: Étage 2 → Étage 3 (▲ Montée)
+[2026-05-14 11:50:43.784] [Ascenseur 2    ] Déplacement: Étage 3 → Étage 4 (▲ Montée)
+[2026-05-14 11:50:44.420] [Ascenseur 1    ] En attente de requetes...
+[2026-05-14 11:50:44.784] [Ascenseur 2    ] Déplacement: Étage 4 → Étage 5 (▲ Montée)
+[2026-05-14 11:50:45.785] [Ascenseur 2    ] Déplacement: Étage 5 → Étage 6 (▲ Montée)
+[2026-05-14 11:50:46.785] [Ascenseur 2    ] Déplacement: Étage 6 → Étage 7 (▲ Montée)
+[2026-05-14 11:50:47.786] [Ascenseur 2    ] Déplacement: Étage 7 → Étage 8 (▲ Montée)
+[2026-05-14 11:50:48.786] [Ascenseur 2    ] Déplacement: Étage 8 → Étage 9 (▲ Montée)
+[2026-05-14 11:50:48.787] [Ascenseur 2    ] ★ Arrêt à l'étage 9 — Portes ouvertes
+[2026-05-14 11:50:48.787] [Ascenseur 2    ] Temps d'attente à l'étage 9: 8005 ms
+[2026-05-14 11:50:50.788] [Ascenseur 2    ] En attente de requetes...
+[2026-05-14 11:51:08.478] [CONTROLEUR     ] Arret de la simulation en cours...
+[2026-05-14 11:51:08.479] [Ascenseur 1    ] Thread arrete
+[2026-05-14 11:51:08.479] [Ascenseur 2    ] Thread arrete
+[2026-05-14 11:51:08.479] [SYSTÈME        ] === Simulation terminée ===

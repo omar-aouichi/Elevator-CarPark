@@ -11,6 +11,6 @@ com/elevatorsim/model/ElevatorState.class
 com/elevatorsim/model/Request$Type.class
 com/elevatorsim/model/Elevator$Destination.class
 com/elevatorsim/model/Elevator.class
-com/elevatorsim/utils/LogService.class
 com/elevatorsim/service/ElevatorController.class
+com/elevatorsim/utils/LogService.class
 com/elevatorsim/model/BuildingComponent.class
